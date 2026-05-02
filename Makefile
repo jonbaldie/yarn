@@ -4,4 +4,4 @@ build:
 	docker build -t jonbaldie/yarn:latest .
 
 test:
-	docker run --rm jonbaldie/yarn [ -f /root/.yarn/bin/yarn ] && echo 'ok' | grep 'ok' 
+	docker run --rm jonbaldie/yarn /root/.yarn/bin/yarn --version 
