@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "yarn",
+  "project_id": "55bb9178-7de4-4744-9011-2d7379a656ef"
+}
